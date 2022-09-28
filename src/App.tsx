@@ -19,11 +19,10 @@ export default function App() {
           <Route path="/book/:id" element={<Detail/>}/>
           <Route path="/edit/:id" element={<Edit/>}/>
           <Route path="/" element={<Home/>}/>
-          <Route element={<NotFound/>} />
+          <Route element={<NotFound/>}/>
         </Routes>
       </BrowserRouter>
     </ErrorBoundary>
-
   );
 }
 
